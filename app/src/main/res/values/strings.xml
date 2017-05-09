@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Movie Box</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="popular">Popular</string>
+    <string name="top_rate">Top Rate</string>
+    <string name="favourite">Favourite</string>
+    <string name="settings">Settings</string>
+    <string name="trailer">Trailer</string>
+    <string name="reviews">Reviews</string>
+    <string name="release">Release Date:</string>
+    <string name="rate">Rate :</string>
+    <string name="description">Description :</string>
+    <string name="review_btn">View Reviews</string>
+    <string name="add_favourite">Added To Favourite</string>
+    <string name="remove_favourite">Removed From Favourite</string>
+    <string name="movie_cover">this is the Cover of the Movie</string>
+    <string name="movie_poster">this is the movie poster</string>
+    <string name="error">Error Happened While Loading The Data</string>
+    <string name="no_result_error">No Reviews Were Found .</string>
+    <string name="no_favourite_error">No Favourite Were Found .</string>
+    <string name="no_connection_error">No Internet Connection , Please Connect To Any Network and Try Again.</string>
+    <string name="number_error">Please select a number between 1 and 5</string>
+
+
+    <string name="pref_order_key" translatable="false">key</string>
+    <string name="pref_order_label">Colors :</string>
+    <string name="pref_order_label_black">Black</string>
+    <string name="pref_order_label_blue">Blue</string>
+    <string name="pref_order_label_green">Green</string>
+    <string name="pref_order_black_value" translatable="false">212121</string>
+    <string name="pref_order_blue_value" translatable="false">2196f3</string>
+    <string name="pref_order_green_value" translatable="false">009688</string>
+
+    <string name="pre_size_label">Columns Number</string>
+    <string name="pref_size_key" translatable="false">column</string>
+    <string name="pref_size_default" translatable="false">2</string>
+</resources>

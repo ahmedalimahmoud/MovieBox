@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_alignEnd="@id/list"
+        android:layout_alignBottom="@id/list"
+        android:id="@+id/next_fab"
+        android:src="@drawable/ic_trending_flat_48px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_favourite_error"
+        android:visibility="invisible"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="46dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/PrimaryText"
+        android:id="@+id/no_favourite"/>
+</RelativeLayout>

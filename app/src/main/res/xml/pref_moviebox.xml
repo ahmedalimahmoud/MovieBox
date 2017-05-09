@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_default"
+        android:key="@string/pref_size_key"
+        android:title="@string/pre_size_label"
+        android:inputType="number"
+        />
+
+    <ListPreference
+        android:defaultValue="@string/pref_order_black_value"
+        android:entries="@array/pref_order_option_labels"
+        android:entryValues="@array/pref_order_option_values"
+        android:key="@string/pref_order_key"
+        android:title="@string/pref_order_label" />
+
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_order_option_labels">
+        <item>@string/pref_order_label_black</item>
+        <item>@string/pref_order_label_blue</item>
+        <item>@string/pref_order_label_green</item>
+
+    </array>
+
+    <array name="pref_order_option_values">
+        <item>@string/pref_order_black_value</item>
+        <item>@string/pref_order_blue_value</item>
+        <item>@string/pref_order_green_value</item>
+    </array>
+</resources>
